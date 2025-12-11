@@ -5,6 +5,7 @@
 ## 1\. Project Overview
 
 **Project Title:** Market Expansion Analytics
+
 **Client:** Monday Coffee Company
 
 This project analyzes retail and online sales data for Monday Coffee, a consumer beverage company operating in multiple major Indian cities. The objective is to build a full SQL-based analytics and reporting workflow that supports market expansion decisions, performance monitoring, and customer insights.
