@@ -700,18 +700,21 @@ LIMIT 3;
 
   * **Database:** PostgreSQL (pgAdmin)
   * **Modeling:** dbdiagram.io
-  * **Documentation:** DB Docs
+  * **Documentation:** DB Docs https://dbdocs.io/akweiwonder3/Monday-Coffee-Database
   * **Version Control:** GitHub
   * **Editor:** VS Code
 
-## 10\. Deliverables
+## 10\. Schema Documentation
+Documentation: DB Docs https://dbdocs.io/akweiwonder3/Monday-Coffee-Database
+
+## 11\. Deliverables
 
 1.  **SQL Scripts:** Schema, Data Import, and Solutions (`.sql`).
 2.  **ERD:** Visual representation of database topology.
 3.  **Documentation:** Detailed README and Insights Summary.
 4.  **Recommendation Report:** A strategic document outlining the top 3 cities.
 
-## 11\. Final Recommendations
+## 12\. Final Recommendations
 
 Based on the analysis, the top 3 cities recommended for expansion are detailed in `recommendations.md`. The selection is based on a balance of high demand (Sales/Consumers), market efficiency (Rent-to-Revenue), and future potential (Population/Growth).
 
