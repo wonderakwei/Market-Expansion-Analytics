@@ -49,15 +49,23 @@ The project uses four CSV datasets imported into PostgreSQL.
 
 ## 5\. Data Modeling
 
-The database follows a normalized relational structure with PK/FK relationships enforced.
+The database follows a normalized relational structure with Primary Key (PK) and Foreign Key (FK) relationships enforced.
 
-**ERD Overview:**
+### ERD Overview: Relationships
+* **`customers.city_id > city.city_id`**: A standard **Many-to-One** relationship. Many customers can live in one city.
+* **`sales.product_id > products.product_id`**: **Many-to-One**. Many sales transactions can reference the same product type.
+* **`sales.customer_id > customers.customer_id`**: **Many-to-One**. One customer can have multiple sales transactions.
 
-  * **One-to-many:** City → Customers
-  * **One-to-many:** Products → Sales
-  * **One-to-many:** Customers → Sales
+## 6\. Entity-Relationship Diagram (ERD)
 
-## 6\. Project Structure
+The ERD is available via the following files:
+* `schemas\dbdiagram-erd.png`
+* `schemas\erd.png`
+
+## 7\. Schema Documentation
+**Documentation:** DB Docs [https://dbdocs.io/akweiwonder3/Monday-Coffee-Database](https://dbdocs.io/akweiwonder3/Monday-Coffee-Database)
+
+## 8\. Project Structure
 
 ```text
 /project-root
@@ -89,7 +97,7 @@ The database follows a normalized relational structure with PK/FK relationships 
 
 -----
 
-## 7\. Business Analysis & SQL Queries
+## 9\. Business Analysis & SQL Queries
 
 Below are the 30 key business questions, framed as problems with their corresponding SQL solutions and explanations.
 
@@ -688,7 +696,7 @@ LIMIT 3;
 
 -----
 
-## 8\. Technical Skills Demonstrated
+## 10\. Technical Skills Demonstrated
 
   * **SQL Schema Design:** Normalization and constraint implementation.
   * **Analytical SQL:** Window functions, Rank, Partition By.
@@ -696,7 +704,7 @@ LIMIT 3;
   * **Business Intelligence:** Cohort analysis and metric formulation.
   * **Reporting:** Transforming raw data into actionable insights.
 
-## 9\. Tools Used
+## 11\. Tools Used
 
   * **Database:** PostgreSQL (pgAdmin)
   * **Modeling:** dbdiagram.io
@@ -704,10 +712,7 @@ LIMIT 3;
   * **Version Control:** GitHub
   * **Editor:** VS Code
 
-## 10\. Schema Documentation
-Documentation: DB Docs https://dbdocs.io/akweiwonder3/Monday-Coffee-Database
-
-## 11\. Deliverables
+## 12\. Deliverables
 
 1.  **SQL Scripts:** Schema, Data Import, and Solutions (`.sql`).
 2.  **ERD:** Visual representation of database topology.
