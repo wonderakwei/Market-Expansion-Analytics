@@ -1,5 +1,5 @@
 # Market Expansion Analytics: SQL-Driven Market Intelligence and Reporting System
-
+![Overview](overview.jpg)
 -----
 
 ## 1\. Project Overview
