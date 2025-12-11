@@ -59,7 +59,7 @@ The database follows a normalized relational structure with Primary Key (PK) and
 
 ## 6\. Entity-Relationship Diagram (ERD)
 
-The ERD is available via the following files:
+The ERD is:
 ![schemas/dbdiagram-erd.png](schemas/dbdiagram-erd.png)
 
 -----
