@@ -104,6 +104,7 @@ Below are the 30 key business questions, framed as problems with their correspon
 ### A. Market Size and Demographics
 
 **1. Problem:** Estimate the number of coffee consumers per city assuming a 25% consumption rate.
+
 **Query:**
 
 ```sql
