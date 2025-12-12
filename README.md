@@ -65,39 +65,7 @@ The ERD is:
 ## 7\. Schema Documentation
 **Documentation:** DB Docs [https://dbdocs.io/akweiwonder3/Monday-Coffee-Database](https://dbdocs.io/akweiwonder3/Monday-Coffee-Database)
 
-## 8\. Project Structure
-
-```text
-/project-root
-│
-├── schemas/
-│   ├── Schemas.sql
-│   └── ERD.dbdiagram.txt
-│
-├── data/
-│   ├── city.csv
-│   ├── customers.csv
-│   ├── products.csv
-│   └── sales.csv
-│
-├── analysis/
-│   ├── Solutions.sql
-│   ├── business_queries.sql
-│   └── insights_summary.md
-│
-├── documentation/
-│   ├── README.md
-│   ├── dbdocs-export/
-│   └── erd.png
-│
-└── outputs/
-    ├── recommendations.md
-    └── market-expansion-report.pdf
-```
-
------
-
-## 9\. Business Analysis & SQL Queries
+## 8\. Business Analysis & SQL Queries
 
 Below are the 30 key business questions, framed as problems with their corresponding SQL solutions and explanations.
 
@@ -699,7 +667,7 @@ LIMIT 3;
 
 -----
 
-## 10\. Technical Skills Demonstrated
+## 9\. Technical Skills Demonstrated
 
   * **SQL Schema Design:** Normalization and constraint implementation.
   * **Analytical SQL:** Window functions, Rank, Partition By.
@@ -707,7 +675,7 @@ LIMIT 3;
   * **Business Intelligence:** Cohort analysis and metric formulation.
   * **Reporting:** Transforming raw data into actionable insights.
 
-## 11\. Tools Used
+## 10\. Tools Used
 
   * **Database:** PostgreSQL (pgAdmin)
   * **Modeling:** dbdiagram.io
@@ -715,7 +683,7 @@ LIMIT 3;
   * **Version Control:** GitHub
   * **Editor:** VS Code
 
-## 12\. Deliverables
+## 11\. Deliverables
 
 1.  **SQL Scripts:** Schema, Data Import, and Solutions (`.sql`).
 2.  **ERD:** Visual representation of database topology.
