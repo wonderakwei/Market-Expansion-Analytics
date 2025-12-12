@@ -116,7 +116,7 @@ ORDER BY estimated_coffee_consumers DESC;
 ```
 
 **Result:**
-`[INSERT SCREENSHOT OF RESULT HERE]`
+![outputs/Q1.png](outputs/Q1.png)
 **Explanation:** This helps set a baseline for the Total Addressable Market (TAM) in each region.
 
 **2. Problem:** Rank cities by potential coffee consumers.
