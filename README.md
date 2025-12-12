@@ -62,10 +62,6 @@ The database follows a normalized relational structure with Primary Key (PK) and
 The ERD is:
 ![schemas/dbdiagram-erd.png](schemas/dbdiagram-erd.png)
 
------
-
-![schemas/erd.png](schemas/erd.png)
-
 ## 7\. Schema Documentation
 **Documentation:** DB Docs [https://dbdocs.io/akweiwonder3/Monday-Coffee-Database](https://dbdocs.io/akweiwonder3/Monday-Coffee-Database)
 
